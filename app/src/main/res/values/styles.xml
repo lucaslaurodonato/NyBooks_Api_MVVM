@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/white</item>
+
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textViewStyle">@style/MyTextView</item>
+    </style>
+
+    <style name="MyTextView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MyTextViewLabel">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="new_york_font">
+        <item name="android:fontFamily">@font/ancient_medium</item>
+        <item name="android:textSize">86sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

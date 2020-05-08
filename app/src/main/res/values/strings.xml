@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NyBooks</string>
+
+    <!-- Books Activity -->
+    <string name="books_title">NY Times Books API</string>
+    <string name="books_error_401">Not authorized</string>
+    <string name="books_error_400_generic">Bad Request</string>
+    <string name="books_error_500_generic">Server Erro</string>
+    <string name="dev_name">Lucas Donato</string>
+
+    <!-- Book Details Activity -->
+    <string name="book_details_title">Book Details</string>
+    <string name="book_details_title_label">Title</string>
+    <string name="book_details_description_label">Description</string>
+
+    <!--splash-->
+    <string name="new_york_times_book">The NY Books Api</string>
+
+    <!--Book Itens-->
+    <string name="title_bold">Title:</string>
+    <string name="author_bold">Author:</string>
+    <string name="publisher_bold">Publisher:</string>
+
+</resources>
