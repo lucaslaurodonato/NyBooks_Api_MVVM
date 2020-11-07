@@ -5,6 +5,5 @@ data class Book(
     val author: String,
     val description: String,
     val contributor: String,
-    val publisher: String,
-    var isSelected: Boolean = false
+    val publisher: String
 )

@@ -23,7 +23,6 @@ class BooksApiDataSource : BooksRepository {
                                 books.add(book)
                             }
                         }
-
                         booksResultCallback(BooksResult.Success(books))
                     }
                     else -> booksResultCallback(BooksResult.ApiError(response.code()))

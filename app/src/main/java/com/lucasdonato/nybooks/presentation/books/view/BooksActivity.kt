@@ -41,7 +41,9 @@ class BooksActivity : AppCompatActivity() {
                     setHasFixedSize(true)
                     addItemDecoration(DividerItemDecoration(context, LinearLayoutManager.VERTICAL))
                     adapter = BooksAdapter(books) { book ->
-                        val intent = BookDetailsActivity.getStartIntent(this@BooksActivity, book.title, book.description, book.contributor)
+                        val intent = BookDetailsActivity.getStartIntent(this@BooksActivity,
+                            book.title, book.description, book.contributor
+                        )
                         this@BooksActivity.startActivity(intent)
                     }
                 }
